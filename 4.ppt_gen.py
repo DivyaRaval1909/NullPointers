@@ -7,8 +7,8 @@ def create_ppt_with_padding(title, ai_content_dict, output_file="generated_prese
     prs = Presentation()
 
     
-    background_color = RGBColor(240, 248, 255)  # Light blue
-    title_bg_color = RGBColor(0, 0, 139)  # Dark blue
+    background_color = RGBColor(240, 248, 255)  
+    title_bg_color = RGBColor(0, 0, 139)  
     title_text_color = RGBColor(255, 255, 255)  
     content_text_color = RGBColor(50, 50, 50) 
 
