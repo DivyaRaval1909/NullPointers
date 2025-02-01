@@ -78,7 +78,7 @@ Multi-line text works!"""
 final_summary_short = ''.join([c if c.isprintable() else ' ' for c in final_summary_short])
 
 text_image_path = "text_image.png"
-created_path = create_text_image(final_summary_short, text_image_path, image_path)  # Pass image_path
+created_path = create_text_image(final_summary_short, text_image_path, image_path) 
 
 if created_path is None:
     print("Exiting due to text image creation failure.")
